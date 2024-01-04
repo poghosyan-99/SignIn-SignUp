@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test1",
+      "email": "test1@gmail.com",
+      "phone": "+374 99 35 46 85",
+      "password": "Test1",
+      "validationNum": "5"
+    }
+  ]
+}
