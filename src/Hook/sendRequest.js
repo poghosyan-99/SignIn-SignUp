@@ -46,9 +46,9 @@ export const sendRequest = () => {
 
     const sendRequestPost = async (url, userData) => {
         const result = await fetch(url, {
-            method: "POST",  // Corrected the method name to uppercase
+            method: "POST", 
             headers: {
-                "Content-Type": "application/json",  // Corrected the equal sign to a colon
+                "Content-Type": "application/json",  
             },
             body: JSON.stringify(userData),
         })
@@ -59,7 +59,7 @@ export const sendRequest = () => {
         const result = await fetch(url, {
             method: "DELETE",
             headers: {
-                "Content-Type": "application/json",  // Corrected the equal sign to a colon
+                "Content-Type": "application/json",  
             },
         })
         return result.json();
